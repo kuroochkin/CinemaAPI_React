@@ -1,0 +1,33 @@
+.movie-card {
+    border: 1px solid #ddd;
+    width: 250px;
+    height: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.movie-details {
+    padding: 16px;
+}
+
+.movie-title {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.movie-year {
+    font-size: 1rem;
+    color: #888;
+}
